@@ -1,0 +1,178 @@
+.b2b-counsulting {
+	padding: 120px 0 70px !important;
+	background: linear-gradient(to right, #12282f, #11533b);
+}
+
+	.b2b-counsulting .card img {
+		border-radius: 10px;
+		min-height: 162px !important;
+		width: 100%;
+	}
+
+.b2b-counsulting .card {
+	background-color: transparent;
+	padding: 0px;
+	border-radius: 25px;
+	margin-top: 25px;
+	border: none;
+	border: 2px solid #1ac48a;
+	border-radius: 13px;
+	min-height: 560px;
+	box-shadow: 0 8px 12px 0 rgb(14 137 95);
+}
+.b2b-counsulting .speciality {
+	font-size: 14px;
+}
+.btn-primaryLink {
+	color: #fff;
+	background-color: #1aa379;
+	border-color: #1aa379;
+	font-size: 22px;
+	padding: 6px 49px;
+	font-weight: bold;
+}
+.btn-primaryLink:hover {
+	color: #fff;
+	background-color: #45b68e;
+	border-color: #45b68e;
+}
+
+.btn-primaryLink a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.b2b-counsulting .second-section {
+	background: linear-gradient(to right, #0c3e2c, #12282f);
+}
+
+.b2b-counsulting .card .full-name {
+	text-transform: capitalize !important;
+	color: white !important;
+	font-size: 23px;
+}
+
+.b2b-counsulting .card img {
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+}
+
+.b2b-counsulting .card .person-info {
+	text-align: center;
+	margin: 25px 6px;
+}
+
+.b2b-counsulting .header-section {
+	margin-bottom: 0px;
+}
+
+.b2b-counsulting .header-section .small-title {
+	font-size: 3rem;
+	color: #fff;
+	font-weight: 900;
+	margin-bottom: 25px;
+}
+
+.b2b-counsulting .header-section .title {
+	font-weight: 700;
+	font-size: 45px;
+}
+
+.b2b-counsulting .single-person {
+	margin-top: 30px;
+	padding: 30px;
+	/* background: linear-gradient(to right, #888888, #0d9789de);
+	border-radius: 5px; */
+	background: linear-gradient(var(--color-bg), var(--color-bg)) padding-box, linear-gradient(to right, darkblue, darkorchid) border-box;
+	border-radius: 2em;
+	border: 2px solid #1ac48a;
+}
+
+.b2b-counsulting .single-person:hover {
+	background: linear-gradient(to right, #09d88f, #008858);
+}
+
+.b2b-counsulting .single-person .person-image {
+	position: relative;
+	margin-bottom: 50px;
+	border-radius: 50%;
+	border: 4px dashed transparent;
+	transition: padding .3s;
+}
+
+.b2b-counsulting .single-person:hover .person-image {
+	padding: 12px;
+	border: 3px dashed #fff;
+}
+
+.b2b-counsulting .single-person .person-image img {
+	width: 100%;
+	border-radius: 50%;
+}
+
+.b2b-counsulting .single-person .person-image .icon {
+	display: none !important;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background: linear-gradient(to right, #1be39c, #1aa379);
+	color: #fff;
+	border-radius: 50%;
+	font-size: 24px;
+}
+
+.b2b-counsulting .single-person:hover .person-image .icon {
+	background: none;
+	background-color: #fff;
+	color: #016cec;
+}
+
+.b2b-counsulting .single-person .person-info .full-name {
+	margin-bottom: 10px;
+	font-size: 18px;
+	font-weight: 800;
+	color: #fff;
+	text-align: center;
+}
+
+.b2b-counsulting .single-person .person-info .speciality {
+	text-transform: capitalize;
+	font-size: 14px;
+}
+
+.b2b-counsulting .single-person:hover .full-name,
+.b2b-counsulting .single-person:hover .speciality {
+	color: #fff;
+}
+
+@media only screen and (min-width: 767px) {
+
+	.b2b-counsulting .card img {
+		border-radius: 10px;
+		min-height: 162px !important;
+		width: 100%;
+	}
+
+}
+
+@media only screen and (max-width: 760px) {
+	.b2b-counsulting .card {
+		min-height: auto;
+	}
+}
+
+@media only screen and (min-width: 991px) {
+	.b2b-counsulting .card img {
+		border-radius: 10px;
+		min-height: 162px !important;
+		width: 100%;
+	}
+}

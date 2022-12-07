@@ -1,0 +1,177 @@
+/*digital art page css start*/
+.normalGallery section {
+    column-width: 300px;
+    column-gap: 5px;
+    padding: 5px;
+  }
+  
+  .normalGallery section img {
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .normalGallery .lightbox {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 50px;
+    left:0;
+    display: none;
+    background: #7f8c8d;
+    perspective: 1000;
+  }
+  
+  .normalGallery .filter {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: blur(20px);
+    opacity: 0.5;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .normalGallery .lightbox img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateY(0deg);
+    max-height: 95vh;
+    max-width: calc(95vw - 100px);
+    transition: 0.8s cubic-bezier(0.7, 0, 0.4, 1);
+    transform-style: preserve-3d;
+  }
+  
+  
+  /*.lightbox:hover img{
+    transform: translate(-50%, -50%) rotateY(180deg);
+  }*/
+  
+  .normalGallery [class^="arrow"] {
+    height: 200px;
+    width: 50px;
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .normalGallery [class^="arrow"]:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    width: 15px;
+    height: 15px;
+  }
+  
+  .normalGallery .arrowr {
+    right: 0;
+  }
+  
+  .normalGallery .arrowr:after {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+  
+  .normalGallery .arrowl {
+    left: 0;
+  }
+  
+  .normalGallery .arrowl:after {
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+  }
+  
+  .normalGallery .close {
+    position: absolute;
+    right: 0;
+    width: 32px;
+    height:32px;
+    background: rgba(0, 0, 0, 0.4);
+    margin: 20px;
+    cursor: pointer;
+  }
+  
+  .normalGallery .close:after,
+  .normalGallery .close:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1px;
+    height: 50%;
+    background: #fff;
+  }
+
+  .normalGallery .close:after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+  
+  .normalGallery .close:before {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  
+  .normalGallery .title {
+    font-size: 20px;
+    color: #000;
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 20px 0;
+  }
+  /*digtial art css end*/
+  .digitalArt .btn-outline-primary {
+    color: #fff;
+    border-color: #1aa379;
+    font-weight: bold;
+    width: 100%;
+    background-color: #1aa379;
+}
+
+.digitalArt .btn-outline-primary a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.digitalArt .videoIframe{
+  width:640px;
+  height:480px;
+}
+.digitalArt .lightbox .title {
+    font-size: 20px;
+    color: #000;
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 40px 0 0px;
+}
+.digitalArt .lightbox h1 {
+    color: #fff !important;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.digitalArt .banner-text-layer {
+    background-color: rgb(0 0 0 / 50%);
+    padding: 1% 3%;
+}
+.digitalArt .banner-disc a{
+  color:#fff;
+  text-decoration: none;
+}
+.digitalArt .digitalArtTop {
+  padding: 65px 0 0px;
+}
+
+@media only screen and (max-width: 760px) {
+.digitalArt .videoIframe{
+  width:100%;
+  height:auto;
+}
+}
